@@ -1,0 +1,18 @@
+# Archivos generados por build
+*.apk
+*.aab
+*.idsig
+*.keystore
+*.png
+*.jpg
+*.jpeg
+build/
+app/build/
+.gradle/
+local.properties
+.DS_Store
+*.iml
+.idea/
+*.hprof
+*~
+*.lock
