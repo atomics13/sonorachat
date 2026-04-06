@@ -1,18 +1,26 @@
-# Archivos generados por build
+# Archivos de build
 *.apk
 *.aab
 *.idsig
 *.keystore
-*.png
-*.jpg
-*.jpeg
+*.jks
 build/
 app/build/
 .gradle/
-local.properties
-.DS_Store
 *.iml
+*.class
+
+# Archivos generados
+twa-manifest.json
+manifest-checksum.txt
+app-release-*
+app-debug-*
+
+# Android Studio
 .idea/
-*.hprof
-*~
-*.lock
+*.iws
+*.ipr
+local.properties
+
+# Gradle wrapper (opcional, algunos lo incluyen)
+# gradle/
