@@ -40,7 +40,42 @@ bubblewrap build
 ### Generate Release APK (signed)
 ./gradlew assembleRelease
 
+⚠️ Important Notes
 
+    Never commit android.keystore to version control
+
+    Never commit .apk or .aab files to version control
+
+    Keep your signing keys secure and backed up
+
+    Test the app thoroughly after each bubblewrap update
+
+🐛 Troubleshooting
+Digital Asset Links error
+
+Ensure your web domain has the proper assetlinks.json file at /.well-known/assetlinks.json
+Build fails
+bash
+
+./gradlew clean
+./gradlew assembleRelease --stacktrace
+
+Update Bubblewrap to latest version
+bash
+
+npm update -g @bubblewrap/cli
+
+📚 Resources
+
+    Bubblewrap Documentation
+
+    Trusted Web Activity Guide
+
+    Digital Asset Links
+
+📄 License
+
+MIT License
 
 ## Getting started
 
