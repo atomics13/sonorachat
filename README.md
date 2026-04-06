@@ -1,8 +1,8 @@
 # sonorachat-project
 
-# SonoraChat Android App
+# Sonora.Chat Android App
 
-A Trusted Web Activity (TWA) Android application wrapping the SonoraChat web app.
+A Trusted Web Activity (TWA) Android application wrapping the Sonora.Chat web app.
 
 ## 📱 About
 
