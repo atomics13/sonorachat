@@ -1,5 +1,45 @@
 # sonorachat-project
 
+# SonoraChat Android App
+
+A Trusted Web Activity (TWA) Android application wrapping the SonoraChat web app.
+
+## 📱 About
+
+This project wraps the SonoraChat web application as an Android app using **Bubblewrap**, Google's tool for building Trusted Web Activities. It provides a native Android experience for the web-based chat platform.
+
+## 🛠️ Prerequisites
+
+- Node.js (v14 or later)
+- Java Development Kit (JDK) 11 or later
+- Android SDK
+- Bubblewrap CLI
+
+## 📦 Installation
+
+### Install Bubblewrap globally
+
+```bash
+npm install -g @bubblewrap/cli
+
+### Clone the repository
+git clone https://github.com/atomics13/sonorachat.git
+cd sonorachat
+
+Common Commands
+
+### Update TWA manifest
+bubblewrap update
+
+### Build the Android project
+bubblewrap build
+ 
+### Generate Debug APK
+./gradlew assembleDebug
+
+### Generate Release APK (signed)
+./gradlew assembleRelease
+
 
 
 ## Getting started
