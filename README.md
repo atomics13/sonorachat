@@ -4,6 +4,9 @@
 
 A Trusted Web Activity (TWA) Android application wrapping the Sonora.Chat web app.
 
+Check in: https://sonora.chat 
+Install App: https://sonora.chat/installsonora.php
+
 ## 📱 About
 
 This project wraps the SonoraChat web application as an Android app using **Bubblewrap**, Google's tool for building Trusted Web Activities. It provides a native Android experience for the web-based chat platform.
